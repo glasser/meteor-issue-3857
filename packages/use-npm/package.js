@@ -10,6 +10,8 @@ Package.describe({
   documentation: 'README.md'
 });
 
+Npm.depends({randy: "1.5.1", sentencer: "0.1.1"});
+
 Package.onUse(function(api) {
   api.versionsFrom('1.0.3.2');
   api.addFiles('use-npm.js');

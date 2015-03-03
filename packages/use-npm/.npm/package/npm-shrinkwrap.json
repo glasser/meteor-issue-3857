@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "randy": {
+      "version": "1.5.1",
+      "dependencies": {
+        "prng-well1024a": {
+          "version": "1.0.1"
+        }
+      }
+    },
+    "sentencer": {
+      "version": "0.1.1",
+      "dependencies": {
+        "lodash": {
+          "version": "2.4.1"
+        },
+        "natural": {
+          "version": "0.1.29",
+          "dependencies": {
+            "sylvester": {
+              "version": "0.0.21"
+            },
+            "apparatus": {
+              "version": "0.0.8"
+            },
+            "underscore": {
+              "version": "1.8.2"
+            }
+          }
+        },
+        "articles": {
+          "version": "0.2.1"
+        }
+      }
+    }
+  }
+}
